@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>IMDb</title>
+</head>
+
+<body>
+    <!-- Search Bar Section -->
+    <div id="search-bar">
+        <!-- Reload the page when IMDb title is clicked -->
+        <h1 onclick="location.reload()">IMDb</h1>
+        <!-- Form for movie search -->
+        <form id="search-form">
+            <input type="text" id="search-input" placeholder="Search IMDb">
+        </form>
+    </div>
+
+    <!-- Category Title Section -->
+    <div>
+        <!-- Title for the currently displayed movie category -->
+        <h1 id="category-title">Now Playing Movies</h1>
+    </div>
+
+    <!-- Movies Grid Section -->
+    <div id="movies-grid"></div>
+
+    <!-- Footer Section -->
+    <div id="footer">
+        <!-- Uncomment the lines below to add a logo and disclaimer -->
+        <!-- <img src="logo.svg" alt="logo">
+        <p>This website uses the TMDB API but it's not endorsed or certified by TMDB.</p> -->
+    </div>
+
+    <!-- JavaScript file for dynamic functionality -->
+    <script src="script.js"></script>
+</body>
+
+</html>
