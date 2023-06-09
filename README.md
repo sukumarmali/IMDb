@@ -2,6 +2,7 @@
 
 IMDb Movie Search is a web application that allows users to search for movies and view information about them from IMDb. 
 It utilizes the TMDB API (The Movie Database API) to fetch movie data and provides an intuitive interface for users to explore movies.
+Visit : https://sukumarmali.github.io/IMDb/
 
 ## Technologies Used
 
