@@ -18,7 +18,7 @@ IMDb Movie Search is a web application that allows users to search for movies an
 
 ## Usage
 
-1. Clone the repository: `git clone https://github.com/sukumarmali/imdb-movie-search.git`
+1. Clone the repository: https://github.com/sukumarmali/IMDb.git
 2. Open the `index.html` file in a web browser.
 3. Use the search bar to enter a movie title and press Enter or click the search button.
 4. View the search results displayed as movie cards.
